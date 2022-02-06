@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# this script install all dependencies to can do it use fabrics files 
+while read -r line;
+do
+	$line;
+done < requirements.txt
